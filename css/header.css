@@ -1,0 +1,93 @@
+.header {
+    background-color: darkgreen;
+}
+.header__inner {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: none;
+}
+.header__title {
+    font-size: 22px;
+    color: white;
+}
+.header__btn {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header__btn:hover {
+    color: rgb(163, 163, 163);
+}
+.header__reg {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header__profile {
+    position: absolute;
+    left: 10%;
+    top: 120%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3), 2px -2px 3px rgba(0, 0, 0, 0.3), -2px 2px 3px rgba(0, 0, 0, 0.3), -2px -2px 3px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    background-color: white;
+    z-index: 1;
+    width: 185px;
+}
+.header__span {
+    color: white;
+    cursor: pointer;
+}
+.header__button {
+    background-color: green;
+    border: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: var(--dmsans);
+}
+.header__avatar {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.header__profile-link {
+    background-color: transparent;
+    border: transparent;
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.header__profile-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 700px) {
+    .header__menu {
+        display: block;
+    }
+    .header__btn {
+        display: none;
+    }
+}

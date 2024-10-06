@@ -1,0 +1,68 @@
+.preloader {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+@keyframes preload {
+    from {opacity: 1}
+    to {opacity: 0} 
+}
+.preloader div {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    animation: preload linear 1s infinite;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform-origin: 50% 300%;
+}
+.preloader div:nth-child(1) {
+    transform: translateX(-50%) rotate(0deg);
+    animation-delay: 0s;
+    background-color: red;
+}
+.preloader div:nth-child(2) {
+    transform: translateX(-50%) rotate(36deg);
+    animation-delay: 0.1s;
+    background-color: red;
+}
+.preloader div:nth-child(3) {
+    transform: translateX(-50%) rotate(72deg);
+    animation-delay: 0.2s;
+    background-color: red;
+}
+.preloader div:nth-child(4) {
+    transform: translateX(-50%) rotate(108deg);
+    animation-delay: 0.3s;
+    background-color: red;
+}
+.preloader div:nth-child(5) {
+    transform: translateX(-50%) rotate(144deg);
+    animation-delay: 0.4s;
+    background-color: red;
+}
+.preloader div:nth-child(6) {
+    transform: translateX(-50%) rotate(180deg);
+    animation-delay: 0.5s;
+    background-color: red;
+}
+.preloader div:nth-child(7) {
+    transform: translateX(-50%) rotate(216deg);
+    animation-delay: 0.6s;
+    background-color: red;
+}
+.preloader div:nth-child(8) {
+    transform: translateX(-50%) rotate(252deg);
+    animation-delay: 0.7s;
+    background-color: red;
+}
+.preloader div:nth-child(9) {
+    transform: translateX(-50%) rotate(288deg);
+    animation-delay: 0.8s;
+    background-color: red;
+}
+.preloader div:nth-child(10) {
+    transform: translateX(-50%) rotate(324deg);
+    animation-delay: 0.9s;
+    background-color: red;
+}

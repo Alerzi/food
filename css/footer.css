@@ -1,0 +1,20 @@
+.footer {
+    padding: 50px;
+    background-color: darkgreen;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__link a {
+    color: white;
+    font-size: 26px;
+    font-family: var(--mulish);
+}
+.footer__info span {
+    margin: 0 25px;
+    color: white;
+    font-family: var(--geistmono);
+    font-weight: 600;
+}

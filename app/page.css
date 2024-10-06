@@ -1,0 +1,119 @@
+.home__img {
+    position: relative;
+    padding: 50px 0;
+    background-color: rgba(173, 173, 173, 0.1);
+}
+.home__img img:first-child {
+    width: 100%;
+    height: 600px;
+}
+.home__img img:last-child {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home__order-store {
+    display: flex;
+}
+.home__order-store button {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.home__order-store button img {
+    width: 200px;
+    height: 50px;
+}
+.home__block {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(148, 148, 148, 0.3), -2px 2px 5px rgba(148, 148, 148, 0.3), 2px -2px 5px rgba(148, 148, 148, 0.3), -2px -2px 5px rgba(148, 148, 148, 0.3);
+}
+.home__block-title {
+    text-align: center;
+    font-size: 38px;
+    color: rgb(0, 121, 0);
+    font-family: var(--mulish);
+    font-weight: 900;
+}
+.home__block-text {
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--dmsans);
+    margin-top: 20px;
+}
+.home__block-search {
+    margin-top: 20px;
+}
+.home__block-input {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.home__block-input input {
+    border: 1px solid lightgrey;
+    padding: 10px 120px 10px 50px;
+    color: rgb(116, 116, 116);
+    font-family: var(--geistmono);
+    border-radius: 20px;
+    width: 100%;
+}
+.home__block-input img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(0, -50%);
+}
+.home__block-input button {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translate(0, -50%);
+    border-radius: 15px;
+    background-color: coral;
+    border: transparent;
+    cursor: pointer;
+    padding: 7px 20px;
+    color: white;
+    font-family: var(--geistsans);
+}
+.home__order {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+}
+.home__order-img {
+    margin: 0 auto;
+}
+.home__order h1 {
+    text-align: center;
+    font-family: var(--mulish);
+    font-size: 28px;
+    font-weight: 300;
+}
+.home__order p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--geistmono);
+    font-size: 16px;
+}
+.home__order-store {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.home__order-store button {
+    margin: 0 10px;
+    cursor: pointer;
+}
